@@ -1,0 +1,328 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #152331;
+  background: -webkit-linear-gradient(to right, #000000, #152331);
+  background: linear-gradient(to right, #000000, #152331);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#register-main {
+  height: 60vh;
+  width: 20vw;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+#register-main form {
+  height: 40vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#register-main a {
+  text-decoration: none;
+  color: black;
+}
+
+input {
+  width: 18vw;
+  height: 35px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+button {
+  background-color: green;
+  height: 35px;
+  width: 8vw;
+}
+
+#verify-main {
+  height: 60vh;
+  width: 20vw;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+
+}
+
+#verify-main form {
+  height: 40vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#login-main {
+  height: 60vh;
+  width: 20vw;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+#login-main form {
+  height: 28vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#login-main a {
+  text-decoration: none;
+  color: black;
+}
+
+#accountCreate-main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#accountCreate-main button {
+  width: 300px;
+  height: 70px;
+  font-size: larger;
+  border-radius: 20px;
+}
+
+
+
+#dashboard-main {
+  height: 80vh;
+  width: 80vw;
+  border: 2px solid white;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#upper-most {
+  display: flex;
+  width: 75vw;
+  align-items: center;
+  justify-content: space-between ;
+}
+
+#upper {
+  height: 20vh;
+  width: 75vw;
+ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); 
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#center {
+  height: 30vh;
+  width: 75vw;
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+#upper-left h3 {
+  padding: 12px;
+}
+
+#upper-right h3 {
+  padding: 12px;
+}
+
+#upper-right span {
+  color: green;
+}
+
+.center-block {
+  height: 27vh;
+  width: 15vw;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#lower {
+  height: 15vh;
+  width: 75vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lower button {
+  height: 6vh;
+  width: 16vw;
+  color: black;
+  font-size: x-large;
+  font-weight: bolder;
+  background-color: rgb(69, 183, 69);
+  border-radius: 5px;
+}
+
+#transaction-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  height: 65vh;
+  border-radius: 20px;
+  width: 20vw;
+}
+
+#transaction-main form {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+@media (max-width : 650px) {
+
+  #register-main {
+    width: 80vw;
+    height: 80vh;
+  }
+
+  #register-main form input {
+    width: 72vw;
+  }
+
+  #register-main form button {
+    width: 60vw;
+  }
+
+  #login-main {
+    width: 80vw;
+    height: 80vh;
+  }
+
+  #login-main form input {
+    width: 72vw;
+  }
+
+  #login-main form button {
+    width: 60vw;
+  }
+
+  #upper-most {
+    justify-content: space-evenly;
+  }
+
+  #upper-most h1 {
+    font-size: large;
+    padding-left: 5px;
+  }
+
+  #upper-most button {
+    width: 25vw;
+    padding-right: 5px;
+  }
+
+
+  #upper-left h3 {
+    padding: 0px;
+  }
+
+  #upper-right h3 {
+    padding: 0px;
+  }
+
+  #accountCreate-main button {
+    width: 300px;
+    height: 200px;
+    font-size: larger;
+    border-radius: 20px;
+  }
+
+  #upper {
+    flex-direction: column;
+    font-size: x-small;
+    justify-content: space-evenly;
+  }
+
+  #upper-left {
+    padding-right: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+
+  #center {
+    flex-direction: column;
+  }
+
+  .center-block {
+    width: 77vw;
+    flex-direction: row;
+
+  }
+
+  #lower button {
+    width: 40vw;
+    font-size: small;
+  }
+
+  #transaction-main {
+    width: 75vw;
+    height: 75vh;
+  }
+
+  #transaction-main form {
+    width: 72vw;
+  }
+
+  #transaction-main form input {
+    width: 72vw;
+  }
+
+  #transaction-main h1 {
+    padding-left: 20px;
+  }
+
+  #transaction-main form button {
+    width: 50vw;
+  }
+}
