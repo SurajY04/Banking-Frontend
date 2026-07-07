@@ -5,7 +5,7 @@ import Login from './components/Login'
 import AccountCreate from './pages/AccountCreate'
 import Dashboard from './pages/Dashboard'
 import Transaction from './pages/Transaction'
-import UserVerify from './pages/userVerify'
+import UserVerify from './pages/UserVerify'
 import ProtectedRoutes from './pages/ProtectedRoutes'
 
 const App = () => {
