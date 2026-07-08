@@ -233,6 +233,19 @@ button {
     width: 60vw;
   }
 
+  #verify-main {
+    width: 80vw;
+    height: 80vh;
+  }
+
+  #verify-main form input {
+    width: 72vw;
+  }
+
+  #verify-main form button {
+    width: 60vw;
+  }
+
   #login-main {
     width: 80vw;
     height: 80vh;
