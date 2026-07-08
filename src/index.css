@@ -259,6 +259,11 @@ button {
     width: 60vw;
   }
 
+  #dashboard-main {
+    width: 90vw;
+    height: 85vh;
+  }
+
   #upper-most {
     justify-content: space-evenly;
   }
@@ -291,8 +296,10 @@ button {
 
   #upper {
     flex-direction: column;
+    align-items: flex-start;
     font-size: x-small;
     justify-content: space-evenly;
+    padding-left: 10px;
   }
 
   #upper-left {
